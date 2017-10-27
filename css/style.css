@@ -346,11 +346,16 @@ footer p {
 
 	.needtotalk {
 		height: 1100px;
+	}
+
+	header {
+	height: 90vh;
+	}
 
 	h1 {
-		font-size: 21px;
+		font-size: 36px;
 		width: 300px;
-		top:60%;
+		top:45%;
 	}
 
 	h2 {

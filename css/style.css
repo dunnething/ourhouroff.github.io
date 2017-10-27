@@ -350,7 +350,7 @@ footer p {
 	h1 {
 		font-size: 21px;
 		width: 300px;
-		top:50%;
+		top:60%;
 	}
 
 	h2 {
@@ -361,11 +361,5 @@ footer p {
 		font-size: 28px;
 		padding-top: 10px
 	}
-
-}
-
-@media only screen and (max-width: 460px) {
-
-
 
 }

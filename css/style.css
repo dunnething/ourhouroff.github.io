@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'hvd_bodedomedium';
+    src: url('HVD_Bodedo-webfont.eot');
+    src: url('HVD_Bodedo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('HVD_Bodedo-webfont.woff2') format('woff2'),
+         url('HVD_Bodedo-webfont.woff') format('woff'),
+         url('HVD_Bodedo-webfont.ttf') format('truetype'),
+         url('HVD_Bodedo-webfont.svg#hvd_bodedomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*____________________________________________________________________*/
+
+p {
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: 400;
+	color: #0B5A9B;
+}
+
+h1 {
+	font-family: 'hvd_bodedomedium', Arial, sans-serif;
+	text-align: center;
+	font-size: 40px;
+	line-height: 1.2;
+	color: #FFF;
+	position: absolute;
+	left:50%;
+	top:35%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	letter-spacing: 0.5px;
+}
+
+h2 {
+	font-family: 'hvd_bodedomedium', Arial, sans-serif;
+	text-align: center;
+	font-size: 30px;
+	color: #0071BC;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+
+h3 {
+	font-family: 'hvd_bodedomedium', Arial, sans-serif;
+	text-align: center;
+	font-size: 24px;
+	color: #FFF;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+h4 {
+	font-family: 'hvd_bodedomedium', Arial, sans-serif;
+	text-align: left;
+	font-size: 30px;
+	color: #FFF;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	padding-bottom: 30px;
+	max-width: 700px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*____________________________________________________________________*/
+
+header {
+	background-color: #15B0ED;
+	height: 60vh;
+}
+
+.logo {
+	position: absolute;
+	width: 100px;
+	margin: 30px;
+}
+
+.socialbuttons {
+	text-align: right;
+	padding: 30px;
+}
+
+.social {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/*____________________________________________________________________*/
+
+.description {
+	background-color: #0592E0;
+	height: 300px;
+	padding-top: 110px;
+}
+
+.desc {
+	margin-top: 40px;
+}
+
+/*____________________________________________________________________*/
+
+.threesteps {
+	background-color: #15B0ED;
+	height: 700px;
+	padding-top: 80px;
+
+}
+
+.stepcontainer {
+	text-align: center;
+}
+
+.step {
+	text-align: center;
+	display: inline-block;
+	margin: 50px;
+	max-width: 300px;
+	padding-top: 30px;
+	margin-bottom: 50px;
+
+}
+
+.clock {
+	height: 190px;
+}
+
+.screens {
+	position: 20px;
+}
+
+/*____________________________________________________________________*/
+
+.needtotalk {
+	background-color: #044F82;
+	height: 700px;
+}
+
+.talk {
+	padding: 70px;
+	max-width: 1050px;
+}
+
+.talk p {
+	font-size: 24px;
+	font-weight: 200;
+}
+
+.joinconvo {
+	padding-top: 30px;
+}
+
+.joinconvo h4 {
+	display: inline;
+	padding-left: 10px;
+}
+
+.joinconvo a h4 {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+/*____________________________________________________________________*/
+
+footer {
+	font-family: sans-serif;
+	background-color: #444;
+	color:#222;
+	height: 80px;
+	padding: 30px 50px;
+}
+
+footer p {
+	color:#232323;
+}
+
+/*____________________________________________________________________*/
+
+@media only screen and (max-width: 1207px) {
+
+	.step {
+		margin: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 1027px) {
+
+	.description {
+		padding-top: 130px;
+		height: 350px;
+	}
+
+	.threesteps {
+		height: 1150px;
+	}
+
+}
+
+@media only screen and (max-width: 871px) {
+
+	.needtotalk {
+		height: 900px;
+	}
+
+}
+
+@media only screen and (max-width: 683px) {
+
+	.threesteps {
+		height: 1600px;
+	}
+
+}
+
+@media only screen and (max-width: 674px) {
+
+	header {
+		height: 500px;
+	}
+
+	.needtotalk {
+		height: 1000px;
+	}
+
+}
+
+
+@media only screen and (max-width: 638px) {
+
+	header {
+		height: 420px;
+	}
+
+	.joininarrow {
+		display: none;
+	}
+
+	.description {
+		height: 450px;
+	}
+
+	.description h2{
+		padding-top: 100px;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+}
+
+@media only screen and (max-width: 607px) {
+
+	.needtotalk {
+		height: 1100px;
+	}
+
+	.clock {
+		margin-top: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 545px) {
+
+	.needtotalk {
+		height: 1200px;
+	}
+
+		h1 {
+		font-size: 34px;
+	}
+
+}
+
+@media only screen and (max-width: 545px) {
+
+
+		h1 {
+		font-size: 30px;
+	}
+
+		h2 {
+		font-size: 28px;	
+		}
+
+}
+
+@media only screen and (max-width: 497px) {
+
+	.needtotalk {
+		height: 1300px;
+	}
+
+		h1 {
+		font-size: 30px;
+	}
+
+		h2 {
+		font-size: 28px;	
+		}
+
+	.threesteps {
+		height: 1700px;
+	}
+
+}
+
+
+@media only screen and (max-width: 460px) {
+
+	.talk {
+		padding: 40px;
+	}
+
+	.needtotalk {
+		height: 500px;
+	}
+
+	.needtotalk p {
+		font-size: 18px;
+	}
+
+	.joinconvo h4 {
+		display: block;
+		font-size: 21px;
+		padding-left: 0px;
+		padding-top: 10px
+	}
+
+}
+
+@media only screen and (max-width: 460px) {
+
+	h1 {
+		font-size: 26px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	.joinconvo h4 {
+		font-size: 28px;
+		padding-top: 10px
+	}
+
+}
+
+@media only screen and (max-width: 460px) {
+
+	.needtotalk {
+		height: 1100px;
+
+}

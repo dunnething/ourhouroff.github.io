@@ -344,8 +344,13 @@ footer p {
 
 @media only screen and (max-width: 460px) {
 
+	.needtotalk {
+		height: 1100px;
+
 	h1 {
-		font-size: 26px;
+		font-size: 21px;
+		width: 300px;
+		top:50%;
 	}
 
 	h2 {
@@ -361,7 +366,6 @@ footer p {
 
 @media only screen and (max-width: 460px) {
 
-	.needtotalk {
-		height: 1100px;
+
 
 }

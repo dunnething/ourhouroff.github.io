@@ -183,12 +183,12 @@ footer {
 
 footer p {
 	color:#232323;
-	margin-bottom: 20px;
 }
 
 footer a {
 	color: #232323;
 	text-decoration: underline;
+	margin-bottom: 20px;
 }
 
 /*____________________________________________________________________*/
